@@ -50,7 +50,7 @@ const Orders = ({ token }) => {
                                         })
                                     }
                                 </div>
-                                <p>{order.address.firstName + " " + order.address.lastName}</p>
+                                <p >{order.address.firstName + " " + order.address.lastName}</p>
                                 <div>
                                     <p>{order.address.street + ","}</p>
                                     <p>{order.address.state + ", " + order.address.country + ", " + order.address.zipcode}</p>
